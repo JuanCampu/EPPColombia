@@ -1,0 +1,9 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Neuropol-Regular";src:url("neuropol.eot?") format("eot"),url("neuropol.woff") format("woff"),url("neuropol.ttf") format("truetype"),url("neuropol.svg#Neuropol-Regular") format("svg");font-weight:normal;font-style:normal;}
+.title-neuropol{
+  font-family:"Neuropol-Regular";
+  color: #000;
+}
+
+.center{
+  text-align: center;
+}
