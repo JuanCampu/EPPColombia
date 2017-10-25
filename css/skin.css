@@ -273,7 +273,7 @@ a.user_color:hover {color: #cc8b00; }
 .post_content.ih-item.square.effect15.colored .info,
 .post_content.ih-item.circle.effect20.colored .info .info-back,
 .post_content.ih-item.square.effect_book.colored .info {
-	background:#26c9c3;
+	background:#fff101;
 }
 
 .post_content.ih-item.circle.effect1.colored .info,
@@ -1623,7 +1623,7 @@ section.team_section > .container {padding-top: 100px;}
     font-style: normal;
 }
 
-.ih-item.circle .post_info_wrap .info-back {margin-top: 25%;}
+.ih-item.circle .post_info_wrap .info-back {margin-top: 43%;}
 
 
 
@@ -2154,7 +2154,9 @@ section.team_section > .container {padding-top: 100px;}
 .footer_style_dark.footer_wrap.widget_area ul li a:hover {color: #f15a23;}
 
 
-
+.page_container{
+  background-color: #1f2c30;
+}
 /* 11. Utils
 -------------------------------------------------------------- */
 
@@ -2884,15 +2886,15 @@ button:hover,
 /* color 2*/
 .sc_button.sc_button_style_filled.sc_button_bg_color2 button,
 .sc_button.sc_button_style_filled.sc_button_bg_color2 {
-    border-color: #f15a23;
-    background-color: #f15a23;
-    color: #ffffff;
+    border-color: #fff101;
+    background-color: #fff101;
+    color: #000;
 }
 .sc_button.sc_button_style_filled.sc_button_bg_color2:hover button,
 .sc_button.sc_button_style_filled.sc_button_bg_color2:hover {
-    border-color: #f15a23 !important;
+    border-color: #000 !important;
     background-color: transparent !important;
-    color: #f15a23 !important;
+    color: #000 !important;
 }
 .sc_button.sc_button_style_filled.sc_button_bg_color2 .ink {background: #f15a23;}
 
