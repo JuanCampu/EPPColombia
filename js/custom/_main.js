@@ -1,3 +1,13 @@
+var $root = $('html, body');
+
+jQuery('a[href^="#"]').click(function () {
+
+    $root.animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
 jQuery(window).load(function() {
     "use strict";
     preloader();
@@ -148,7 +158,7 @@ function main_slider_init() {
 			revslider_showDoubleJqueryError('#rev_slider_1');
 		}else{
 		   	revapi4 = tpj('#rev_slider_1').show().revolution(
-				{	
+				{
 					dottedOverlay:"none",
 					delay:9000,
 					startwidth:1920,
@@ -198,7 +208,7 @@ function main_slider_init() {
 					hideSliderAtLimit:0,
 					hideCaptionAtLimit:0,
 					hideAllCaptionAtLilmit:0,
-					startWithSlide:0					
+					startWithSlide:0
 				});
 			}
 		});
